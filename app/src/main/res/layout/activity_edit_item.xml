@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:text="Edit Your Item"
+        android:text="@string/edit_item_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tvEditItemTitle"
@@ -25,7 +25,7 @@
         android:id="@+id/etEditItem" />
 
     <Button
-        android:text="Save"
+        android:text="@string/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnSaveItem"
