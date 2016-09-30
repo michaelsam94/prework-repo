@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 items.remove(pos);
                 Toast.makeText(MainActivity.this, "Item Removed", Toast.LENGTH_SHORT).show();
                 itemsAdapter.notifyDataSetChanged();
-                
-                
                 writeItems();
                 return true;
             }
