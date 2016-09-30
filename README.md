@@ -1,8 +1,6 @@
-# prework-repo
-task to join code paths bootcamp
-# Pre-work - *Name of App Here*
+# Pre-work - *ToDo App*
 
-**To Do App** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**ToDo App** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
 Submitted by: **Your Name Here**
 
