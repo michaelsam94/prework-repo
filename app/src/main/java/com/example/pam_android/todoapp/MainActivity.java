@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 items.remove(pos);
                 Toast.makeText(MainActivity.this, "Item Removed", Toast.LENGTH_SHORT).show();
                 itemsAdapter.notifyDataSetChanged();
+                
+                
                 writeItems();
                 return true;
             }
@@ -73,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 int pos = data.getIntExtra("postion", 0);
                 String res = data.getStringExtra("result");
                 items.set(pos, res);
+                writeItems();
             }
         }
     }
