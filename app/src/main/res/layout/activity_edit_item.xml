@@ -8,10 +8,14 @@
 
 
     <TextView
-        android:text="TextView"
+        android:text="Edit Your Item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvEditItemTitle" />
+        android:id="@+id/tvEditItemTitle"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp" />
 
     <EditText
         android:layout_width="wrap_content"
