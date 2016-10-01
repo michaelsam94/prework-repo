@@ -26,7 +26,7 @@ public class EditItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit_item);
         fromMainActivity = getIntent();
         itemPostion = fromMainActivity.getIntExtra("postion", 0);
-        item = fromMainActivity.getStringExtra("item");
+        item = fromMainActivity.getStringExtra("Item");
         editItem = (EditText) findViewById(R.id.etEditItem);
         editItem.setText(item);
         editItem.setSelection(item.length());
